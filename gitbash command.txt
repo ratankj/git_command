@@ -1,0 +1,31 @@
+Git Lifecycle :- https://prnt.sc/aeUAMRTPHAaB
+VCS : - https://prnt.sc/6RgxavdphQCI
+
+    8  mkdir demo		 -- to create directory
+    9  ls
+   10  cd demo 		 - go inside the directroy
+   11  ls
+   12  nano a.c		 - to create a file ( to save ctrl + s , to exit ctrl + x)
+   13  cat a.c		 --  to see the file content
+   14  git init 		 -- to intialize the git
+   15  ls
+   16  ll
+   17  ls -al		 -- to see the hidden content of file
+   18  git status  	 --  to check the status of file.. checking that all are commting or not
+   19  git add a.c 	 -- The git add command adds a change in the working directory to the staging area.
+   20  git status 	 --  The git status command displays the state of the working directory and the staging area.
+				 It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+  
+   21  git rm --cached a.c -- to again untrack the file
+   22  git status
+   23  git add .          --  to add all file in one go.
+   24  git status
+   25  git commit -m " commiting my a.c file "  -- used to create a snapshot of the staged changes along a timeline of a Git projects history.
+
+   26   git config --global user.email "imratankj@gmail.com"
+   27   git config --global user.name "ratan kumar jha"
+   28  git commit -m " commiting my a.c file "
+   
+   29  git log 		 - displays all of the commits in a repository's history
+   30  history		 - it display the all command that is uses earlier
+
